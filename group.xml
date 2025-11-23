@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Group Suite">
+    <groups>
+        <run>
+            <include name="master"/>
+        </run>
+    </groups>
+
+    <test name="Test">
+        <parameter name="os" value="windows"/>
+        <parameter name="browser" value="chrome"/>
+
+        <classes>
+            <class name="com.learning.testCases.TC002_LoginTest"/>
+            <!---><class name="com.learning.testCases.TC003_LoginDDTest"/>-->
+            <class name="com.learning.testCases.TC001_RegistrationTest"/>
+        </classes>
+    </test>
+</suite>

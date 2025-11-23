@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-22T16:59:03 IST" name="Suite" finished-at="2025-11-22T16:59:29 IST" duration-ms="26634">
+    <groups>
+      <group name="regression">
+        <method signature="TC001_RegistrationTest.testAccountRegistrationVerification()[pri:0, instance:com.learning.testCases.TC001_RegistrationTest@5db45159]" name="testAccountRegistrationVerification" class="com.learning.testCases.TC001_RegistrationTest"/>
+      </group> <!-- regression -->
+      <group name="master">
+        <method signature="TC001_RegistrationTest.testAccountRegistrationVerification()[pri:0, instance:com.learning.testCases.TC001_RegistrationTest@5db45159]" name="testAccountRegistrationVerification" class="com.learning.testCases.TC001_RegistrationTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-11-22T16:59:03 IST" name="Test" finished-at="2025-11-22T16:59:29 IST" duration-ms="26634">
+      <class name="com.learning.testCases.TC001_RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.learning.testCases.TC001_RegistrationTest@5db45159]" started-at="2025-11-22T16:59:04 IST" name="setUp" finished-at="2025-11-22T16:59:23 IST" duration-ms="19293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAccountRegistrationVerification()[pri:0, instance:com.learning.testCases.TC001_RegistrationTest@5db45159]" started-at="2025-11-22T16:59:23 IST" name="testAccountRegistrationVerification" finished-at="2025-11-22T16:59:28 IST" duration-ms="4971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountRegistrationVerification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.learning.testCases.TC001_RegistrationTest@5db45159]" started-at="2025-11-22T16:59:28 IST" name="tearDown" finished-at="2025-11-22T16:59:29 IST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learning.testCases.TC001_RegistrationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
